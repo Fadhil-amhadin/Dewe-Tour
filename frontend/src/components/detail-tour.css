@@ -1,0 +1,105 @@
+.detail-tour{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.detail-tour .content{
+    width: 80%;
+}
+.detail-tour .content .title{
+    font-size: 2.5em;
+}
+.main-img{
+    object-fit: cover;
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.small-img{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img img{
+    flex: 1;
+    width: 30%;
+    border-radius: 5px;
+}
+.small-img .img-2{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.tour-info{
+    display: flex;
+    justify-content: space-between;
+    font-family: roboto;
+}
+.tour-info p{
+    margin-bottom: 0;
+}
+.tour-info span{
+    display: flex;
+    align-items: center;
+}
+.tour-info img{
+    width: 40px;
+}
+.detail-tour .content .description-title{
+    font-family: roboto;
+}
+.detail-tour .content .description-content{
+    font-family: roboto;
+    text-align: justify;
+}
+.detail-price{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.detail-price span{
+    display: flex;
+}
+.detail-price .nominal{
+    color: #ffae00;
+    margin-right: 0.2em;
+}
+.detail-price button{
+    font: inherit;
+    font-size: 1.7em;
+    background-color: #ffae00;
+    border: none;
+    border-radius: 10px;
+    width: 1em;
+    height: 1em;
+    margin: 10px 0 5px 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.detail-price .quantity{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.total-price .nominal{
+    color: #ffae00;
+}
+.booking-btn{
+    text-align: right;
+    margin: 2em 0;
+}
+.booking-btn button{
+    background-color: #ffae00;
+    font: inherit;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    padding: 0.5em 2em;
+}

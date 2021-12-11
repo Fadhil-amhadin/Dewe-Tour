@@ -1,0 +1,56 @@
+.add-trip-background{
+    background-color: white;
+    padding-bottom: 3em;
+}
+.add-trip-background .add-title{
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+    font-family: roboto;
+}
+.add-trip-container{
+    font-family: roboto;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+}
+.add-trip-container .add-child{
+    display: flex;
+    flex-direction: column;
+}
+.add-trip-container .add-child .duration-child{
+    display: flex;
+    flex-direction: row;
+}
+.add-trip-container .add-child .duration-child span{
+    display: flex;
+    align-items: center;
+}
+.add-trip-container .add-child .duration-child span p{
+    margin-left: 0.5em;
+    margin-right: 3em;
+}
+.add-trip-container .add-child-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.add-trip-container .add-child-button .button-add{
+    font-size: 1.3em;
+    background-color: #ffae00;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+}
+.add-trip-container .add-child p{
+    font-weight: bold;
+}
+.add-trip-container .add-child input , .add-trip-container .add-child textarea, .add-trip-container .add-child select{
+    font-size: 1em;
+    background-color: rgb(214, 211, 211);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}

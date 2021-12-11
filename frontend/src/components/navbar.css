@@ -1,0 +1,21 @@
+.navbar{
+    background-image: url('../assets/images/figma/min-header.png');
+    background-size: cover;
+    padding: 1em;
+    font-family: 'roboto';
+    height: 50px;
+}
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+    text-shadow: #ffae00 2px 2px;
+}
+.navbar-header img{
+    max-height: 68px;
+}
+/* h1.navbar-logo{
+    font-family: wedding;
+    font-size: 2.5em;
+    margin: 0;
+    color: black;
+} */

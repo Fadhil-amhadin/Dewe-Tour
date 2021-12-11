@@ -1,0 +1,39 @@
+.incoming-trip-title{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: roboto;
+}
+.buffer{
+    flex: 2;
+}
+.incoming-trip-div{
+    flex: 1;
+    display: flex;
+}
+.incoming-trip-title button{
+    flex: 1;
+    font-size: 1.2em;
+    background-color: #ffae00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.delete-trip{
+    margin: auto;
+    background-color: rgb(238, 70, 70);
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: fit-content;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-family: roboto;
+}

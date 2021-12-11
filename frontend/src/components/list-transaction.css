@@ -1,0 +1,39 @@
+.list-container{
+    width: 80%;
+    margin: auto;
+}
+.list-container .list-content{
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 2px gray;
+    border-radius: 5px;
+}
+.list-container .list-content .list-table{
+    width: 100%;
+    font-family: roboto;
+    border-collapse: collapse;
+}
+.list-content .list-table th{
+    text-align: left;
+    padding: 30px 10px;
+    border-bottom: 1px solid darkgray;
+}
+.list-content .list-table td{
+    padding: 10px;
+    border-bottom: 1px solid darkgrey;
+}
+.approved-admin{
+    color: rgb(3, 158, 3) !important;
+    font-weight: 900;
+}
+.pending-admin{
+    color: rgb(255, 146, 56) !important;
+    font-weight: 900;
+}
+.cancel-admin{
+    color: rgb(243, 34, 34) !important;
+    font-weight: 900;
+}
+.waiting-admin{
+    color: indianred !important;
+    font-weight: 900;
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'roboto';
+  src:  url('./assets/fonts/roboto/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: 'wedding';
+  src:  url('./assets/fonts/wedding/Wedding\ Bells\ -\ TTF.ttf');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  /* background: url('./assets/images/body-background.jpg'); */
+  background-color: #F1F1F1;
+}
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

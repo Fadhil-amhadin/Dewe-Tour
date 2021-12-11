@@ -1,0 +1,87 @@
+
+[
+    {
+        "id" : "1",
+        "name" : "6D/4N Fun Tassie Vacation ",
+        "price" : "12398000",
+        "country" : "Australia",
+        "accomodation" : "Hotel 4 Nights",
+        "transportation" : "Australia Airways",
+        "eat" : "included at itinerary",
+        "duration" : [6, 4],
+        "date" : "10 January 2022",
+        "quota" : 20,
+        "description" : "have fun",
+        "image" : "sydney.jpg"
+    },
+    {
+        "id" : "2",
+        "name" : "6D/4N Exciting Summer",
+        "price" : "10288000",
+        "country" : "South Korea",
+        "accomodation" : "Hotel 4 Nights",
+        "transportation" : "Korean Airways",
+        "eat" : "included at itinerary",
+        "duration" : [6, 4],
+        "date" : "12 January 2022",
+        "quota" : 20,
+        "description" : "have fun",
+        "image" : "south-korea.jpg"
+    },
+    {
+        "id" : "3",
+        "name" : "8D/6N Wonderful Autumn",
+        "price" : "28999000",
+        "country" : "Japan",
+        "accomodation" : "Hotel 6 Nights",
+        "transportation" : "Japan Airways",
+        "eat" : "included at itinerary",
+        "duration" : [8, 6],
+        "date" : "14 January 2022",
+        "quota" : 20,
+        "description" : "have fun",
+        "image" : "kyoto.jpg"
+    },
+    {
+        "id" : "4",
+        "name" : "4D/3N Overland Jakarta",
+        "price" : "3180000",
+        "country" : "Indonesia",
+        "accomodation" : "Hotel 3 Nights",
+        "transportation" : "Sriwijaya Air",
+        "eat" : "included at itinerary",
+        "duration" : [4, 3],
+        "date" : "17 January 2022",
+        "quota" : 20,
+        "description" : "have fun",
+        "image" : "jakarta.jpg"
+    },
+    {
+        "id" : "5",
+        "name" : "4D/3N Labuan Bajo Delight",
+        "price" : "10445000",
+        "country" : "Indonesia",
+        "accomodation" : "Hotel 3 Nights",
+        "transportation" : "Garuda Indonesia",
+        "eat" : "included at itinerary",
+        "duration" : [4, 3],
+        "date" : "20 January 2022",
+        "quota" : 20,
+        "description" : "have fun",
+        "image" : "labuan-bajo.jpg"
+    },
+    {
+        "id" : "6",
+        "name" : "5D/4N Magic Tokyo Fun",
+        "price" : "11188000",
+        "accomodation" : "Hotel 4 Nights",
+        "transportation" : "Japan Airways",
+        "eat" : "included at itinerary",
+        "duration" : [5, 4],
+        "date" : "23 January 2022",
+        "quota" : 20,
+        "description" : "have fun",
+        "country" : "Japan",
+        "image" : "tokyo.jpg"
+    }
+]

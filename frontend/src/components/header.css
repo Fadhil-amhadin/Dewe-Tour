@@ -1,0 +1,116 @@
+.nav{
+    background-image: url('../assets/images/figma/header-background.jpg');
+    background-size: cover;
+    font-family: 'roboto';
+    margin-bottom: -3em;
+}
+.nav .transparent-layer{
+    background: rgba(0, 0, 0, 0.25);
+    padding: 1em 5em;
+    padding-bottom: 5em;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    height: 51px;
+}
+
+/* h1.logo{
+    font-family: wedding;
+    font-size: 2.5em;
+    margin: 0;
+    color: black;
+} */
+
+.btn-login{
+    width: 7em;
+    margin: 5px;
+    padding: 5px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-regist{
+    width: 7em;
+    margin: 5px;
+    padding: 5px;
+    background: #ffae00;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-title{
+    color: white;
+    /* text-shadow: #ffae00 1px 1px; */
+}
+.nav-title h1{
+    margin-bottom: 5px;
+    margin-top: 2em;
+    font-size: 3em;
+}
+.nav-title p{
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 1.8em;
+}
+
+.search-field{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+}
+.search-label{
+    color: white;
+}
+.search-field input{
+    width: 90vw;
+    font-size: 1.3em;
+    padding: 8px;
+    border: 1px solid grey;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+.search-field input:focus{
+    outline: none;
+    background-color: rgb(216, 244, 255);
+}
+.search-field button{
+    background-color: #ffae00;
+    font-size: 1.2em;
+    padding: 8px;
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.offer{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.offer .card{
+    width: 14em;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: #ffae00 1px 1px 2px;
+    font-family: roboto;
+}
+
+.offer .container{
+    width: 14em;
+    display: inline-block;
+    text-align: center;
+}

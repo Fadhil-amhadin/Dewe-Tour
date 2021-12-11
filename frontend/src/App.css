@@ -1,0 +1,172 @@
+/* login styling ====================================================================*/
+.loginBackground{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginContainer{
+  border-radius: 8px;
+  font-family: roboto;
+  width: 30%;
+  height: 60vh;
+  background: url('./assets/images/figma/white-bg.jpg');
+  background-repeat: round;
+  text-align: center;
+}
+.exitBtn{
+  text-align: right;
+}
+.exitBtn button{
+  font-family: roboto;
+  color: black;
+  background: transparent;
+  border: none;
+  font-size: 1.5em;
+}
+.loginTitle{
+  font-size: 1.2em;
+}
+.loginTitle h1{
+  margin-top: 0;
+}
+.loginBody{
+  display: flex;
+  justify-content: center;
+}
+.loginBody form{
+  width: 80%;
+}
+.loginEmail, .loginPassword{
+  display: flex;
+  flex-direction: column;
+}
+.loginEmail div, .loginPassword div{
+  display: block;
+  text-align: left;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.loginEmail input, .loginPassword input{
+  background-color: #E5E5E5;
+  font-size: 1.3em;
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px;
+}
+.loginEmail input:focus, .loginPassword input:focus{
+  outline: none;
+  background-color: #fff5e0;
+}
+
+.loginBody .loginSubmit{
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: #ffae00;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+}
+.loginFooter button{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+/* regist styling ==========================================================*/
+.registBackground{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registContainer{
+  border-radius: 8px;
+  font-family: roboto;
+  width: 40%;
+  height: 95vh;
+  background: url('./assets/images/figma/white-bg-reg.jpg');
+  background-repeat: round;
+  text-align: center;
+}
+.exitBtn{
+  text-align: right;
+}
+.exitBtn button{
+  font-family: roboto;
+  color: black;
+  background: transparent;
+  border: none;
+  font-size: 1.5em;
+}
+.registTitle{
+  font-size: 1.2em;
+}
+.registTitle h1{
+  margin-top: 0;
+}
+.registBody{
+  display: flex;
+  justify-content: center;
+}
+.registBody form{
+  width: 80%;
+}
+.registName, .registEmail, .registPassword, .registPhone, .registAddress{
+  display: flex;
+  flex-direction: column;
+}
+.registName div, .registEmail div, .registPassword div, .registPhone div, .registAddress div{
+  display: block;
+  text-align: left;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.registName input, .registEmail input, .registPassword input, .registPhone input, .registAddress textarea{
+  background-color: #E5E5E5;
+  font-size: 1.3em;
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px;
+}
+.registName input:focus, .registEmail input:focus, .registPassword input:focus, .registPhone input:focus, .registAddress textarea:focus{
+  outline: none;
+  background-color: #fff5e0;
+}
+.registAddress textarea{
+  font-weight: bold;
+  font-family: inherit;
+}
+.registBody .registSubmit{
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: #ffae00;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+}
+.registFooter button{
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}

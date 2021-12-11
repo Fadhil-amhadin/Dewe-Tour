@@ -1,0 +1,39 @@
+.dashboard-container{
+    width: 85vw;
+    margin: auto;
+}
+.dashboard-container .btn-group{
+    display: flex;
+}
+.dashboard-container .btn-group button{
+    flex: 1;
+    font-size: 1em;
+    font-family: roboto;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.dashboard-container .btn-group .transaction-btn{
+    background-color: green;
+}
+.dashboard-container .btn-group .trips-btn{
+    background-color: blue;
+    margin: 0 10px 0 10px;
+}
+.dashboard-container .btn-group .complaint-btn{
+    background-color: red;
+}
+.dashboard-container .btn-group .empty-div{
+    flex: 5;
+}
+
+/* chart styling ================== */
+.chart-container{
+    margin-top: 25px;
+}
+.chart-text-heading{
+    font-family: roboto;
+    font-size: 1.5em;
+}

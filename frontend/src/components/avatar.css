@@ -1,0 +1,99 @@
+.userLoginAvatar{
+    width: 45px;  
+    margin-right: 2em;
+}
+.userLoginAvatar img:active{
+    transform: scale(1.2);
+}
+.userLoginAvatar .userAvatar{
+    object-fit: cover;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffae00;
+    border-radius: 50%;
+    background-position: center;
+    transition: transform 50ms ease-in-out;
+}
+
+.userDropDown{
+    position: relative;
+    background-color: white;
+    width: 160px;
+    right: 0;
+    left: -265%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.arrow-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.top-arrow{
+    margin-top: -17px;
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid white;
+    margin-right: 5px;
+}
+.userDropDown span{
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+.userDropDown img{
+    width: 40px;
+}
+.userDropDown .complaint-image-div img{
+    width: 32px;
+    margin: 0 4px 0 4px;
+}
+.userDropDown p{
+    text-shadow: none;
+    font-weight: bolder;
+}
+
+
+
+.adminLoginAvatar{
+    width: 45px;  
+    margin-right: 2em;
+}
+.adminLoginAvatar img:active{
+    transform: scale(1.2);
+}
+.adminLoginAvatar .adminAvatar{
+    object-fit: cover;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffae00;
+    border-radius: 50%;
+    background-position: center;
+    transition: transform 50ms ease-in-out;
+}
+
+.adminDropDown{
+    position: relative;
+    background-color: white;
+    width: 160px;
+    right: 0;
+    left: -264%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.adminDropDown span{
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+.adminDropDown img{
+    width: 40px;
+    margin-right: 5px;
+}
+.adminDropDown p{
+    text-shadow: none;
+    font-weight: bolder;
+}
